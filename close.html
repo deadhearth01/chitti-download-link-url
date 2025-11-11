@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Complete</title>
+    <script>
+        // Close the tab
+        window.close();
+        // Fallback: If close doesn't work, show a message
+        setTimeout(() => {
+            document.body.innerHTML = '<p style="font-family: system-ui; text-align: center; margin-top: 50px; color: #666;">You can close this tab now. Your download has started.</p>';
+        }, 100);
+    </script>
+</head>
+<body></body>
+</html>

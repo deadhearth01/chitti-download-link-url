@@ -4,13 +4,13 @@
     <script src="links.js"></script>
     <script>
         // Start download and close tab
-        window.addEventListener('load', function() {
-            if (downloadLinks && downloadLinks.macos) {
-                window.location.href = downloadLinks.macos;
-                // Close tab after 500ms
-                setTimeout(() => window.close(), 500);
-            }
-        });
+        if (downloadLinks && downloadLinks.macos) {
+            window.location.href = downloadLinks.macos;
+            // Redirect to close page after short delay
+            setTimeout(() => {
+                window.location.href = 'close.html';
+            }, 1000);
+        }
     </script>
 </head>
 <body></body>
