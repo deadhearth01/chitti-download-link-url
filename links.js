@@ -4,9 +4,9 @@ const downloadLinks = {
     name: "macOS",
     links: [
       {
-        version: "Latest",
-        url: "https://your-macos-download-link.com/download",
-        size: "150 MB"
+        version: "3.06",
+        url: "https://github.com/TheAnanta/chitti-app/releases/download/3.0.6/chitti-2025-3.0.6-mac.dmg",
+        size: "60.4 MB"
       }
     ]
   },
@@ -15,8 +15,8 @@ const downloadLinks = {
     links: [
       {
         version: "Latest",
-        url: "https://your-windows-download-link.com/download",
-        size: "180 MB"
+        url: "https://github.com/TheAnanta/chitti-app/releases/download/3.0.6/chitti.exe",
+        size: "45.4 MB"
       }
     ]
   }
