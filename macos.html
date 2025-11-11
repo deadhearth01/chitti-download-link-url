@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="links.js"></script>
+    <script src="links.js?v=1"></script>
     <script>
-        window.location.href = downloadLinks.macos.links[0].url;
+        setTimeout(() => {
+            if (typeof downloadLinks !== 'undefined' && downloadLinks.macos.links[0]) {
+                window.location.href = downloadLinks.macos.links[0].url;
+            }
+        }, 100);
     </script>
 </head>
 <body></body>
