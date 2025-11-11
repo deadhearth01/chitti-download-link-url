@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="links.js?v=1"></script>
     <script>
-        setTimeout(() => {
-            if (typeof downloadLinks !== 'undefined' && downloadLinks.macos.links[0]) {
-                window.location.href = downloadLinks.macos.links[0].url;
-            }
-        }, 100);
-    </script>   
+        // Direct download URL - no caching issues
+        const downloadUrl = "https://github.com/TheAnanta/chitti-app/releases/download/3.0.6/chitti-2025-3.0.6-mac.dmg";
+        window.location.href = downloadUrl;
+    </script>
 </head>
 <body></body>
 </html>

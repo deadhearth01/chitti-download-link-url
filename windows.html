@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="links.js?v=1"></script>
     <script>
-        setTimeout(() => {
-            if (typeof downloadLinks !== 'undefined' && downloadLinks.windows.links[0]) {
-                window.location.href = downloadLinks.windows.links[0].url;
-            }
-        }, 100);
+        // Direct download URL - no caching issues
+        const downloadUrl = "https://github.com/TheAnanta/chitti-app/releases/download/3.0.6/chitti.exe";
+        window.location.href = downloadUrl;
     </script>
 </head>
 <body></body>
